@@ -1,0 +1,49 @@
+.App {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+}
+
+#parents-container {
+  display: flex;
+}
+
+#tabs {
+  display: flex;
+}
+
+.tab {
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  margin: 2px;
+  padding: 10px 20px;
+  width: 25%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.selectedTab {
+  color: white;
+  background-color: darkblue;
+  border: 2px solid black;
+  box-shadow: 1px 1px 10px 2px lightslategray;
+  transition: 500ms;
+}
+
+.nonSelectedTab {
+  color: black;
+  background-color: white;
+  border: 2px solid #bbbbbb;
+}
+
+.results-box {
+  width: 97%;
+  height: 100px;
+  margin: auto;
+  border: 2px solid gray;
+  box-shadow: 1px 1px 5px 1px gray;
+  margin-top: 10px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
